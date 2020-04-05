@@ -1,0 +1,25 @@
+//import mixins-vars
+@import "./mixins-vars";
+//import bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+//body styles
+body,
+html {
+  font-family: $basic-font-family;
+  color: $main;
+  background-color: #fff;
+  position: relative;
+  touch-action: manipulation;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 22px;
+
+  @include media-breakpoint-up(md) {
+    font-size: 16px;
+  }
+}
+
+
