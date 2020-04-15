@@ -1,18 +1,41 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.scss";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
-import { Router } from "react-router-dom"
-import {createBrowserHistory} from 'history'
-const history = createBrowserHistory()
+import "./index.scss";
+
+//=============================
+import {createStore, compose, applyMiddleware} from "redux";
+import {Provider} from 'react-redux';
+import thunk from 'redux-thunk';
+import { Router, Route, Redirect } from "react-router-dom"
+import { createBrowserHistory } from "history";
+
+//=============================
+import { syncHistoryWithStore } from 'react-router-redux';
+import {rootReducer} from './redux/rootReducer'
+import FilmCard from "./components/FilmCard";
 
 
-ReactDOM.render((
+//=============================
+const customHistory = createBrowserHistory();
+const store = createStore(rootReducer, compose(
+    applyMiddleware(thunk),
+    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+));
+const history = syncHistoryWithStore(customHistory, store);
+
+
+//=============================
+ReactDOM.render(
+    <Provider store={store}>
         <Router history={history}>
-            <App/>
+            <Redirect  from='/' to='/films' />
+            <Route exact path="/films" component={App}/>
+            <Route path="/films/:id" component={FilmCard}/>
         </Router>
-    ), document.getElementById('root')
+    </Provider>
+    , document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change

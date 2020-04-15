@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ddbf59e0-6095-4056-a1a1-dfc8f6c4dc23" name="Default Changelist" comment="" />
+    <list default="true" id="ddbf59e0-6095-4056-a1a1-dfc8f6c4dc23" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FilmItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FilmItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FilmList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/CharacterCard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/FilmCard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes.js" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +27,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Zsif4tF04OuWulshekT8jlbhw6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,8 +39,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react-todolist" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -58,6 +76,23 @@
       <workItem from="1586073179680" duration="9118000" />
       <workItem from="1586082466485" duration="1009000" />
       <workItem from="1586096957420" duration="5245000" />
+      <workItem from="1586147409715" duration="2530000" />
+      <workItem from="1586150363794" duration="9200000" />
+      <workItem from="1586168286858" duration="265000" />
+      <workItem from="1586178324172" duration="11933000" />
+      <workItem from="1586190569129" duration="5000" />
+      <workItem from="1586190589025" duration="4843000" />
+      <workItem from="1586241275383" duration="5515000" />
+      <workItem from="1586316706866" duration="8000" />
+      <workItem from="1586321416935" duration="4077000" />
+      <workItem from="1586404435599" duration="18977000" />
+      <workItem from="1586441686789" duration="9119000" />
+      <workItem from="1586489372597" duration="1755000" />
+      <workItem from="1586497575876" duration="655000" />
+      <workItem from="1586498788106" duration="15923000" />
+      <workItem from="1586617770564" duration="1355000" />
+      <workItem from="1586665007043" duration="112000" />
+      <workItem from="1586747769946" duration="63000" />
     </task>
     <servers />
   </component>
@@ -69,14 +104,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="181" key="#File_Watchers/0.0.1920.1040@0.0.1920.1040" timestamp="1585634640304" />
-    <state x="690" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585634364637">
+    <state x="743" y="330" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586150491613">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585634364637" />
+    <state x="743" y="330" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586150491613" />
+    <state x="690" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586428828123">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586428828123" />
     <state x="599" y="319" key="EditFileWatcherDialog" timestamp="1585634615748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="599" y="319" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585634615748" />
+    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1586747829949">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586747829949" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1586075004641">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
